@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Auto Card Battle</title>
+        <style>
+            @font-face {
+                font-family: "neodgm";
+                src: url("asset/font/neodgm.ttf");
+            }
+
+            body {
+                touch-action: none;
+                overscroll-behavior: none;
+            }
+
+            #screen {
+                border: 2px solid black;
+                position: absolute;
+                left: 0px;
+                right: 0px;
+                top: 0px;
+                bottom: 0px;
+                margin: auto;
+                max-width: 96%;
+                max-height: 96%;
+            }
+        </style>
+    </head>
+    <body>
+        <cavnas id="screen" width="1280" height="720"></cavnas>
+        <script src="script/asset.js"></script>
+        <script src="script/ui.js"></script>
+        
+        <script src="script/shape.js"></script>
+
+        <script src="script/render.js"></script>
+        <script src="script/game.js"></script>
+        
+        <script src="script/scenetitle.js"></script>
+        <script src="script/scenemap.js"></script>
+        <script src="script/scenebattle.js"></script>
+
+        <script src="script/main.js"></script>
+    </body>
+</html>
